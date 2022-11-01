@@ -1,7 +1,4 @@
-# app/controllers/application_controller.rb# application controller file
-# frozen_string_literal: false
-
-class ApplicationController < ActionController::API
+class Bird < ApplicationRecord
   # GET /birds
   def index
     birds = Bird.all
